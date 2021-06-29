@@ -8,4 +8,7 @@ var friendAge = [15, 17, 18, 20];
   friendAge.push(44);
   friendAge. push(33);
   friendAge.pop();
-console.log(friendAge.length);
+  friendAge.unshift(99,100,333);
+  friendAge.shift();
+  var part = friendAge.slice(4,5);
+console.log(part);
