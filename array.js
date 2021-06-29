@@ -12,3 +12,9 @@ var friendAge = [15, 17, 18, 20];
   friendAge.shift();
   var part = friendAge.slice(4,5);
 console.log(part);
+
+var num = 10;
+while(num<=15){
+ console.log(num);
+  num++;
+}
